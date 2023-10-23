@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-const uri = "mongodb+srv://itsayushthapa:itsayushthapa@cluster0.1seoka8.mongodb.net/Marketplace?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:admin@midterm.yfx8ijc.mongodb.net/?retryWrites=true&w=majority";
 
 app.get('/', (req, res) => res.send('Marketplace App is Running!'));
 
